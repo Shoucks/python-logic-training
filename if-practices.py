@@ -120,3 +120,29 @@ elif Operador == "/":
 else:
     print(Numero1*Numero2)
     
+# Bloque 02
+# E01
+print("Introduce una contraseña, debe tener minimo 8 caracteres y al menos un número ")
+contraseña = input()
+
+longitud = len(contraseña)
+
+if any(c.isdigit() for c in contraseña) and longitud >= 8:
+    print("Contraseña aseptada")
+else:
+    print("Contraseña no tiene minimo 8 caracteres o no contiene un número")
+# No quedo muy claro como funciona pero dejo aqui la explicacion
+# ¿Qué está pasando ahí dentro?
+# for c in contraseña: Python va letra por letra de la palabra.
+# c.isdigit(): Pregunta: "¿Es esta letra un número?".
+# any(...): Si encuentra aunque sea un solo True en todo ese recorrido, te da el visto bueno.
+
+# E02
+
+edad = int(input("¿Cual es tu edad? "))
+acompañante = input("¿Vienes acompañado? (Si o No) ")
+
+if edad >= 18 or acompañante == "Si":
+    print("Puedes pasar")
+else:
+    print("No puede pasar")

@@ -1,17 +1,9 @@
-# E10
+# E02
 
-print("Calculadora")
+edad = int(input("¿Cual es tu edad? "))
+acompañante = input("¿Vienes acompañado? (Si o No) ")
 
-Numero1 = int(input())
-Operador = input()
-Numero2 = int(input())
-
-if Operador == "+":
-    print(Numero1+Numero2)
-elif Operador == "-":
-    print(Numero1-Numero2)
-elif Operador == "/":
-    print(Numero1/Numero2)
+if edad >= 18 or acompañante == "Si":
+    print("Puedes pasar")
 else:
-    print(Numero1*Numero2)
-    
+    print("No puede pasar")
