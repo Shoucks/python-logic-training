@@ -1,0 +1,75 @@
+ # BLOQUE 1 — 10 ejercicios solo con if / elif / else
+	#1.	Pide una edad y di:
+	#•	Menor de edad
+	#•	Adulto
+	#•	Adulto mayor (65+)
+	#2.	Pide una nota (0–10) y clasifica:
+	#•	Suspenso (<5)
+	#•	Aprobado (5–6)
+	#•	Notable (7–8)
+	#•	Sobresaliente (9–10)
+	#3.	Pide un número y di si es:
+	#•	Positivo
+	#•	Negativo
+	#•	Cero
+	#4.	Pide un número y verifica si está entre 10 y 50.
+	#5.	Simula login:
+	#•	Usuario correcto: “admin”
+	#•	Password correcto: “1234”
+	#•	Mensaje distinto según error.
+	#6.	Pide dos números y muestra el mayor.
+	#7.	Pide un año y determina si es bisiesto (solo con condicionales, sin librerías).
+	#8.	Pide una letra y di si es vocal o consonante.
+	#9.	Pide temperatura y clasifica:
+	#•	Frío (<10)
+	#•	Templado (10–25)
+	#•	Calor (>25)
+	#10.	Calculadora simple:
+	#•	Pide número1
+	#•	Pide operador (+ - * /)
+	#•	Pide número2
+	#•	Ejecuta según operador
+#⸻
+# BLOQUE 2 — 10 ejercicios usando and / or
+	#1.	Validar contraseña:
+	#•	Debe tener más de 8 caracteres
+	#•	Y contener al menos un número
+	#2.	Verificar acceso:
+	#•	Edad ≥ 18
+	#•	O estar acompañado
+	#3.	Número válido:
+	#•	Debe estar entre 1 y 100
+	#•	Y ser par
+	#4.	Descuento:
+	#•	Cliente VIP
+	#•	O compra mayor a 100€
+	#5.	Verificar email:
+	#•	Contiene “@”
+	#•	Y contiene “.”
+	#6.	Número divisible por 3 y 5.
+	#7.	Año válido:
+	#•	Mayor que 1900
+	#•	Y menor que 2100
+	#8.	Validar nombre:
+	#•	No vacío
+	#•	Y más de 3 caracteres
+	#9.	Usuario bloqueado:
+	#•	Más de 3 intentos
+	#•	O contraseña incorrecta 2 veces seguidas
+	#10.	Verificar día laboral:
+
+	#•	No sábado
+	#•	Y no domingo
+#⸻
+# BLOQUE 3 — 10 ejercicios combinando bucles + condicional
+#Aquí empieza lo interesante (nivel real junior).
+	#1.	Pide 5 números y muestra el mayor.
+	#2.	Pide números hasta que el usuario escriba 0 y suma todos.
+	#3.	Contar cuántos números pares introduce el usuario.
+	#4.	Tabla de multiplicar del 1 al 10 usando for.
+	#5.	Juego de adivinar número con intentos limitados.
+	#6.	Validar contraseña hasta que sea correcta.
+	#7.	Contar vocales en un texto usando for.
+	#8.	Pedir 10 números y decir cuántos son positivos.
+	#9.	Generar números del 1 al 50 y mostrar solo los divisibles por 3.
+	#10.	Simular cajero automático con menú repetitivo hasta salir.
