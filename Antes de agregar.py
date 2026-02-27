@@ -1,9 +1,9 @@
-# E02
+# E04
 
-edad = int(input("¿Cual es tu edad? "))
-acompañante = input("¿Vienes acompañado? (Si o No) ")
+Cliente = input("¿Eres cliente vip? (si/no) ")
+Compra = int(input("¿Cual es el monto de su compra? "))
 
-if edad >= 18 or acompañante == "Si":
-    print("Puedes pasar")
+if Cliente == "si" or Compra >= 100:
+    print("A conseguido un descuento")
 else:
-    print("No puede pasar")
+    print("No hay descuento aplicable")
