@@ -146,3 +146,102 @@ if edad >= 18 or acompañante == "Si":
     print("Puedes pasar")
 else:
     print("No puede pasar")
+
+# E03
+
+numero= int(input("Pon un numero entre 1 y 100 que sea par "))
+
+if numero <= 100 and numero >= 1 and numero % 2 == 0:
+    print("El es valido")
+else:
+    print("Numero incorrecto")
+
+# E04
+
+Cliente = input("¿Eres cliente vip? (si/no) ")
+Compra = int(input("¿Cual es el monto de su compra? "))
+
+if Cliente == "si" or Compra >= 100:
+    print("A conseguido un descuento")
+else:
+    print("No hay descuento aplicable")
+
+# E05
+# in se usa para verificar si en la variable contiene ciertos caracteres
+email = input("Introduce tu email ")
+
+if "@" in email and "." in email:
+    print("Email con formato correcto")
+else:
+    print("Email con formato incorrecto")
+
+# E06
+
+numero = int(input("Introduce un numero para comprobar si es divisible por 3 y 5 "))
+
+if numero % 3 == 0 and numero % 5 ==0:
+    print("El numero es divisible por 3 y 5")
+else:
+    print("El numero no es divisible por 3 o 5")
+
+# E07
+
+numero = int(input("Si colocas un numero entre 1900 y 2100 sera correcto "))
+
+if numero <= 2100 and numero >= 1900:
+    print("Correcto")
+else:
+    print("Incorrecto")
+
+# E08
+
+nombre = input("Introduce tu nombre")
+
+if nombre == "" or len(nombre) <= 3:
+    print("Esta vacio o nombre menor a 3 caracteres")
+else:
+    print("El nombre es correcto")
+
+# E09
+# un poco incongruente el ejercicio porque fallar 2 veces seguida y mas de 3 intentos es logica imposible con estos metodos actuales.
+
+contraseña = input("Coloque la contraseña ")
+pasw = "1234"
+if contraseña == pasw:
+    print("Contraseña correcta")
+else:
+    contraseña2 = input("Contraseña incorrecta, introdusca denuevo ")
+    if contraseña2 == pasw:
+        print("Contraseña correcta")
+    else:
+        print("Cuenta bloqueada")
+
+# E10
+# se puede mejora con != para negar los dias y poner como resultados inversos y con .lower() para volver minusculas la letras 
+dia = input("Verificador de dia laboral (colocar en minuscula)")
+
+if dia == "sabado" or dia == "domingo":
+    print("Dia no laboral")
+else:
+    print("Dia laboral")
+
+# Bloque 03
+# E01
+
+print("Seleccionador del mayor de 5 numeros")
+num1 = int(input("Introduce el primer numero "))
+num2 = int(input("Introduce el segundo numero "))
+num3 = int(input("Introduce el tercer numero "))
+num4 = int(input("Introduce el cuarto numero "))
+num5 = int(input("Introduce el quinto numero "))
+
+if num1 >= num2 and num1 >= num3 and num1 >= num4 and num1 >= num5:
+    print(num1, "es el mayor")
+elif num2 >= num1 and num2 >= num3 and num2 >= num4 and num2 >= num5:
+    print(num2, "es el mayor")
+elif num3 >= num1 and num3 >= num2 and num3 >= num4 and num3 >= num5:
+    print(num3, "es el mayor")
+elif num4 >= num1 and num4 >= num2 and num4 >= num3 and num4 >= num5:
+    print(num4, "es el mayor")
+else:
+    print(num5, "es el mayor")
