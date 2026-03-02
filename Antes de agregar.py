@@ -1,20 +1,19 @@
-# Bloque 03
-# E01
+# E02
+#2.	Pide números hasta que el usuario escriba 0 y suma todos.
 
-print("Seleccionador del mayor de 5 numeros")
-num1 = int(input("Introduce el primer numero "))
-num2 = int(input("Introduce el segundo numero "))
-num3 = int(input("Introduce el tercer numero "))
-num4 = int(input("Introduce el cuarto numero "))
-num5 = int(input("Introduce el quinto numero "))
+num = int(input("Escribe un numero del 0 al 9 "))
 
-if num1 >= num2 and num1 >= num3 and num1 >= num4 and num1 >= num5:
-    print(num1, "es el mayor")
-elif num2 >= num1 and num2 >= num3 and num2 >= num4 and num2 >= num5:
-    print(num2, "es el mayor")
-elif num3 >= num1 and num3 >= num2 and num3 >= num4 and num3 >= num5:
-    print(num3, "es el mayor")
-elif num4 >= num1 and num4 >= num2 and num4 >= num3 and num4 >= num5:
-    print(num4, "es el mayor")
+if num == 0:
+    print("Correcto y el total de todos los numeros es", num)
 else:
-    print(num5, "es el mayor")
+    num2 = int(input("Escribe otro numero "))
+    suma = num + num2
+    if num2 == 0:
+        print("Correcto y el total de todos los numeros es", suma)
+    else:
+        num3 = int(input("Escribe otro numero ultimo intento "))
+        suma2 = num + num2 + num3
+        if num3 == 0:
+            print("Correcto y el total de todos los numeros es", suma2)
+        else:
+            print("Error numero no encontrado")
